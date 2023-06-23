@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.IndiceDeMassaCorporal" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/white</item>
+    </style>
+
+    <style name="Link">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="textColorSearchUrl">#0013EC</item>
+    </style>
+
+
+
+    <style name="Theme.IndiceDeMassaCorporal" parent="Base.Theme.IndiceDeMassaCorporal" />
+
+
+</resources>

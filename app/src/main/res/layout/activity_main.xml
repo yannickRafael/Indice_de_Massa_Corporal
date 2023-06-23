@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#18F4A6"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/et_peso"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/shape"
+        android:ems="10"
+        android:hint="@string/peso_hint"
+        android:inputType="numberDecimal"
+        android:paddingLeft="20dp" />
+
+    <EditText
+        android:id="@+id/et_altura"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/shape"
+        android:ems="10"
+        android:hint="@string/altura_hint"
+        android:inputType="numberDecimal"
+        android:paddingLeft="20dp" />
+
+    <Button
+        android:id="@+id/btn_calcular"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/shape"
+        android:text="@string/btn_calcular"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:text="@string/more_info"
+        android:theme="@style/Link" />
+
+</LinearLayout>

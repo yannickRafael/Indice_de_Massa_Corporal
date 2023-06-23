@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Indice de Massa Corporal</string>
+    <string name="peso_hint">Insira  o seu peso</string>
+    <string name="altura_hint">Insira a sua altura</string>
+    <string name="btn_calcular">Calcular</string>
+    <string name="more_info">Clique aqui, para saber sobre o IMC</string>
+</resources>
